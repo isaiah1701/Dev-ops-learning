@@ -20,7 +20,7 @@ This folder contains my notes, scripts, and walkthroughs as I learn key DevOps s
 
 | Topic        | Status     | Notes                                |
 |--------------|------------|--------------------------------------|
-| Bash         | In Progress ✅ | Learning loops, conditionals, CLI tools |
+| Bash         | Not started |                                      |
 | Git          | Not started |                                      |
 | Linux        | Not started |                                      |
 | CI/CD        | Not started |                                      |
