@@ -4,9 +4,9 @@ This folder contains my notes, scripts, and walkthroughs as I learn key DevOps s
 
 ## ✅ What I'm Covering
 
-- Bash scripting (✅ in progress)
+- Bash scripting 
 - Git and GitHub basics
-- Linux fundamentals
+- Linux fundamentals (✅ in progress)
 - Networking (DNS, ports, IP)
 - CI/CD pipelines
 - Docker and containers
