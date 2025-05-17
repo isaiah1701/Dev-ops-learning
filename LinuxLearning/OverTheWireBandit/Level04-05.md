@@ -1,24 +1,29 @@
-# Level 04 ? 05
+# Level 04 → 05
 
-## ?? Objective
+## 🎯 Objective
 
-_Describe the goal for this level._
+The password for the next level is stored in the **only human-readable file** inside the `inhere` directory.
 
-## ?? Commands Used
+---
 
-\\\ash
-# your commands here
-\\\
+## 🧪 Commands Used
 
-## ?? Password
+```bash
+cd inhere
+ls
+file ./*
+cat ./-file07
+🔐 Password
+✅ Password retrieved successfully — not shown for OverTheWire compliance.
 
-\\\
-# password here
-\\\
+🧠 Notes
+What did you learn?
+I learned how to use the file command to inspect the contents and types of multiple files, and identify the only one that’s human-readable (ASCII text).
 
-## ?? Notes
+Any new command/tool?
+file — helps check if files contain readable text or binary data. Super useful when you don’t know what's inside.
 
-- What did you learn?
-- Any new command/tool?
-- Anything tricky?
+Anything tricky?
+It was tempting to try cd ./-file07, but I quickly learned it’s a file, not a directory. Also realized that brute-checking each file with cat would’ve been slower — file was the smarter move.
+
 
