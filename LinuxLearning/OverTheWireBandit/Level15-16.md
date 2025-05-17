@@ -1,24 +1,38 @@
-# Level 15 ? 16
+# Level 15 → 16
 
-## ?? Objective
+## 🎯 Objective  
+The password for the next level is retrieved by submitting the current level's password to **port 30001 on localhost** using **SSL/TLS encryption**.
 
-_Describe the goal for this level._
+---
 
-## ?? Commands Used
+## 🧪 Commands Used
 
-\\\ash
-# your commands here
-\\\
+```bash
+# Start encrypted connection
+openssl s_client -connect localhost:30001
 
-## ?? Password
+# (After it says CONNECTED, paste the password manually and press Enter)
+🔐 Password
+✅ Password retrieved successfully — not shown for OverTheWire compliance.
 
-\\\
-# password here
-\\\
+🧠 Notes
+What did you learn?
+I learned how to use openssl s_client to send secure input over TLS. I also learned that some services expect interactive input, not just piped commands.
 
-## ?? Notes
+New commands/tools?
+Yes — openssl s_client to create a TLS-secured connection. It's used when nc or telnet won't work because encryption is required.
 
-- What did you learn?
-- Any new command/tool?
-- Anything tricky?
+Anything tricky?
+Yeah — I thought echo "$password" | openssl s_client -connect localhost:30001 would work, but it kept failing.
+Turns out the input was being sent before the TLS handshake completed.
+All I had to do was:
 
+Run openssl s_client -connect localhost:30001
+
+Wait for CONNECTED
+
+Paste the password manually
+
+Hit Enter
+
+Super simple in hindsight, but I was overcomplicating it because I didn’t fully understand how TLS interaction works yet.
