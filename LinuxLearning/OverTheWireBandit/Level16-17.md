@@ -26,7 +26,7 @@ for port in 31046 31518 31960 31961 31790; do
 done
 
 # Submit the password manually using socat (replace the password if needed)
-echo "kSkvUpMQ7LBYyCM4GBPvCvT1BfWRy0Dx" | socat - OPENSSL:localhost:31790,verify=0
+echo "[password]" | socat - OPENSSL:localhost:31790,verify=0
 🔐 Password
 ✅ Password successfully retrieved from the correct SSL port using socat.
 
