@@ -4,37 +4,36 @@ This folder contains my notes, scripts, and walkthroughs as I learn key DevOps s
 
 ## ✅ What I'm Covering
 
-- Bash scripting 
-- Git and GitHub basics
-- Linux fundamentals (✅ in progress)
-- Networking (DNS, ports, IP)
-- CI/CD pipelines
-- Docker and containers
-- Infrastructure as Code (Terraform)
-- Monitoring & logging tools (Grafana, Prometheus)
-- Cloud (AWS, Azure)
+- Bash scripting (✅ in progress)  
+- Linux fundamentals (✅ in progress)  
+- Git and GitHub basics  
+- Networking (DNS, ports, IP)  
+- CI/CD pipelines  
+- Docker and containers  
+- Infrastructure as Code (Terraform)  
+- Monitoring & logging tools (Grafana, Prometheus)  
+- Cloud platforms (AWS, Azure)  
 
 ---
 
 ## 📂 Progress Log
 
-| Topic        | Status     | Notes                                |
-|--------------|------------|--------------------------------------|
-| Bash         | Not started |                                      |
-| Git          | Not started |                                      |
-| Linux        | Not started |                                      |
-| CI/CD        | Not started |                                      |
+| Topic                         | Status       | Notes                                    |
+|------------------------------|--------------|------------------------------------------|
+| Bash scripting               | In progress  | Working through core scripting concepts  |
+| Linux fundamentals           | In progress  | File system, permissions, processes      |
+| Git and GitHub basics        | Not started  |                                          |
+| Networking (DNS, ports, IP)  | Not started  |                                          |
+| CI/CD pipelines              | Not started  |                                          |
+| Docker and containers        | Not started  |                                          |
+| Infrastructure as Code       | Not started  |                                          |
+| Monitoring & logging tools   | Not started  |                                          |
+| Cloud platforms (AWS, Azure) | Not started  |                                          |
 
 ---
 
-## 🧠 Bash Topics I'm Covering
 
-- Variables & parameters
-- Loops (`for`, `while`)
-- Conditional logic (`if`, `case`)
-- Script automation
-- Permissions & execution (`chmod +x`)
-- Useful tools: `grep`, `awk`, `sed`, `find`, etc.
+
 
 ---
 
